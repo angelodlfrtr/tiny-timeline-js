@@ -1,0 +1,31 @@
+.timeline {
+  font-family: sans-serif;
+  min-height: 50px; }
+  .timeline .cursor {
+    position: absolute;
+    min-height: 50px;
+    border-right: 3px solid #e74c3c;
+    width: 0px;
+    z-index: 999;
+    margin-left: 0px; }
+    .timeline .cursor.animate {
+      -moz-transition: all 100ms ease;
+      -ms-transition: all 100ms ease;
+      -o-transition: all 100ms ease;
+      transition: all 100ms ease; }
+  .timeline .line {
+    height: 50px;
+    background-color: #ecf0f1;
+    margin-top: 5px; }
+    .timeline .line .event {
+      position: absolute;
+      min-height: 50px;
+      display: inline-block;
+      text-align: center;
+      height: 50px;
+      overflow: hidden; }
+      .timeline .line .event > span {
+        line-height: 3;
+        color: #fff; }
+
+/*# sourceMappingURL=timeline.css.map */
