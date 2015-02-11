@@ -7,8 +7,7 @@ var line3 = test.addLine('OK', { "color": "#e74c3c" });
 
 var event = line1.addEvent('Cool', {
   "start": 1000,
-  "end": 3000,
-  "title": "Un super titre"
+  "end": 3000
 });
 
 event.onActive(function(e){
@@ -17,8 +16,7 @@ event.onActive(function(e){
 
 event = line2.addEvent('Oh my god !', {
   "start": 6000,
-  "end": 10000,
-  "title": "Kiki"
+  "end": 10000
 });
 
 event.onActive(function(e){
@@ -27,8 +25,7 @@ event.onActive(function(e){
 
 event = line3.addEvent('Oh mon dieu !', {
   "start": 3000,
-  "end": 6000,
-  "title": "Kiki"
+  "end": 6000
 });
 
 event.onActive(function(e){

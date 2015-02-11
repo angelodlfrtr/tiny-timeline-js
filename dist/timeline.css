@@ -16,7 +16,10 @@
   .timeline .line {
     height: 50px;
     background-color: #ecf0f1;
-    margin-top: 5px; }
+    margin-top: 5px;
+    color: #ABABAB;
+    line-height: 150%;
+    font-weight: bold; }
     .timeline .line .event {
       position: absolute;
       min-height: 50px;

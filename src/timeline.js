@@ -43,7 +43,6 @@
     // Add line to HTML
     this.appendLine(l);
 
-
     // Add addEvent function to line
     l.addEvent = function(name, opts){
       // Create callback methods on events
@@ -123,6 +122,7 @@
 
     var event_element       = document.createElement('div');
     var title_element       = document.createElement('span');
+
     title_element.innerHTML = event_name;
 
     title_element.setAttribute('title', event_name);
@@ -157,8 +157,8 @@
 
     // create html struct
     var line_element = document.createElement('div');
-    line_element.classList.add('line');
 
+    line_element.classList.add('line');
     this.element.appendChild(line_element);
 
     var cursor_element          = this.getCursorElement();
