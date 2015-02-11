@@ -1,1 +1,7 @@
+# ignore vim temp files
+*.swp
+*.swo
+*~
+
+# Sass cache
 /.sass-cache
