@@ -1,10 +1,10 @@
-# Une super timeline
+# Une super timeline -- School project
 
 A simple timeline, just for you.
 
 ## Installation
 
-Just add `timeline.min.js at the end of html, and the css `dist/timeline.css` in head of your document.`
+Just add `timeline.min.js` at the end of html, and the css `dist/timeline.css` in head of your document.
 
 ## Usage
 
